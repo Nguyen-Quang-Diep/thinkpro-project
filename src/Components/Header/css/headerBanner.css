@@ -1,0 +1,36 @@
+:root{
+    --t-header: 80px;
+    --t-padding-header: 1rem;
+}
+
+.the-header{
+    height: var(--t-header);
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #9196a2;
+}
+
+.form-input-login{
+    border: 1px solid #4080ff;
+    border-radius: 12px;
+}
+
+.inputHeader{
+    border: 0;
+    box-shadow: none;
+    outline: none;
+}
+
+.item-header{
+    text-decoration: none;
+    padding: var(--t-padding-header);
+
+}
+
+.item-header:hover{
+    background-color: rgba(246, 249, 252, 1);
+    transition: 0.5s ease-in-out;
+}
+
+
+

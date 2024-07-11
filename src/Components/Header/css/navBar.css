@@ -1,0 +1,103 @@
+:root{
+    --tw-bg-opacity: 1;
+    --b: 255, 255 , 255;
+    --t-navigation: 88px;
+    --t-navigation-zindex: 90;
+    --t-color: #333;
+}
+
+.the-navigation{
+    background-color: rgb(var(--b) / var(--tw-bg-opacity));
+    height: var(--t-navigation);
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
+    top: 0;
+    width: inherit;
+    z-index: var(--t-navigation-zindex);
+    display: flex;
+    align-items: center;
+}
+
+.the-menu{
+    height: 65px;
+}
+
+.the-menu a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    height: inherit !important;
+    color: var(--t-color);
+    height: inherit;
+    padding: 8px;
+
+}
+
+.the-menu a:hover{
+    background-color: rgba(246, 249, 252, 1);
+    transition: 0.5s ease-in-out;
+}
+
+.the-menu-item{
+    display: flex;
+    align-items: center;
+}
+
+.the-menu-item ul{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    gap: 5px;
+    list-style: none;
+}
+
+.the-menu-item ul > li{
+    display: flex;
+    align-items: center;
+    height: 65px;
+}
+
+.the-menu-item ul li > a{
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    color: var(--t-color);
+}
+
+.the-menu-item ul li:hover{
+    background-color: rgba(246, 249, 252, 1);
+    transition: 0.5s ease-in-out;
+}
+
+.multi-item{
+    position: relative;
+}
+
+.multi-item:hover .sub-menu{
+    display: block;
+    transition: 0.5s ease-in-out;
+    background-color: #fff;
+}
+.sub-menu{
+    position: absolute;
+    padding: 5px;
+    top: 100%;
+    overflow: hidden;
+    margin-top: 1px;
+    border: 1px solid rgba(230, 232, 234, 1);
+    border-radius: 4px;
+    display: none;
+}
+
+
+.sub-menu a{
+    width: 160px;
+    padding: 8px 4px;
+    text-decoration: none;
+}
+
+.sub-menu a:hover{
+    cursor: pointer;
+    background-color: rgba(246, 249, 252, 1);
+}

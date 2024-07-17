@@ -1,0 +1,17 @@
+body {
+  div{
+  }
+}
+
+.app-container{
+
+  .add-new{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    span{
+      line-height: 12px;
+    }
+  }
+}

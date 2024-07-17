@@ -13,12 +13,18 @@
 .form-input-login{
     border: 1px solid #4080ff;
     border-radius: 12px;
+    padding-right: 20px;
+}
+
+.form-control{
+    border: none !important;
+    border-radius: none !important;
+    transition: none !important;
 }
 
 .inputHeader{
     border: 0;
     box-shadow: none;
-    outline: none;
 }
 
 .item-header{
@@ -31,6 +37,4 @@
     background-color: rgba(246, 249, 252, 1);
     transition: 0.5s ease-in-out;
 }
-
-
 

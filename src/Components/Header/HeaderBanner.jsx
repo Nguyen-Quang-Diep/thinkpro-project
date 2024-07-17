@@ -18,7 +18,7 @@ function HeaderBanner() {
             <form action="/tim-kiem">
                 <div className='d-flex align-items-center column-gap-2'>
                     <span><FontAwesomeIcon icon={faMagnifyingGlass}/></span>
-                    <input type="text" className='pe-5 form-control shadow-none  inputHeader' placeholder=' Ten san pham, nhu cau, hang'/>
+                    <input type="text" className='pe-5 form-control shadow-none inputHeader' placeholder=' Ten san pham, nhu cau'/>
                 </div>
             </form>
         </div>
@@ -28,9 +28,9 @@ function HeaderBanner() {
             <a href="" className='item-header'><FontAwesomeIcon icon={faHeadset} className='me-1'/> Khieu Nai</a>
             <a href="" className='item-header'><FontAwesomeIcon icon={faNewspaper} className='me-1'/>Tin Cong Nghe</a>
         </div>
-
-        <div className='p-2'>
-            <a href="/gio-hang"><FontAwesomeIcon icon={faCartShopping} className='text-dark '/></a>
+        
+        <div className='ms-5 d-flex align-items-center' style={{height: "56px"}}>
+            <a href="" className='p-2' style={{borderRadius: "12px !important" , backgroundColor: "rgba(246,249,252,1)"}}><FontAwesomeIcon icon={faCartShopping}/> </a>
         </div>
 
       </div>
